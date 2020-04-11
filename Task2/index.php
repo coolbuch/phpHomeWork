@@ -6,6 +6,7 @@
     </title>
     <link rel="stylesheet" href="style.css"/>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 <table cellspacing="0">
@@ -14,7 +15,7 @@
     echo "<tr><td class='first'></td>";
     for ($i = 1; $i < $n + 1; $i++)
     {
-        echo "<td>$i</td>";
+        echo "<td class='first-line'>$i</td>";
     }
     echo "</tr>";
     for ($i = 1; $i < $n + 1; $i++)

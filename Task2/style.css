@@ -1,4 +1,25 @@
 td
 {
-    border: crimson solid 1px;
+    border: crimson solid 2px;
+    min-width: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Roboto;
+    height: 50px;
+    font-size: 20pt;
+}
+
+.diagonal
+{
+    background-color: khaki;
+}
+
+td:first-child, .first-line
+{
+    background: darksalmon;
+}
+
+.diagonal
+{
+
 }
